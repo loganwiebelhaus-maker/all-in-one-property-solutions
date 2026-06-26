@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>All in one property solutions</title>
+  <meta name="description" content="All in one property solutions — property management, sales, and service in one place." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="logo.svg" alt="All in one property solutions logo" class="logo" />
+        <h1 class="site-title">All in one property solutions</h1>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h2>Property management, sales, and services — all in one place</h2>
+        <p>We simplify property ownership with a single, reliable partner for rentals, maintenance, and sales.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">Get a quote</a>
+          <a class="btn ghost" href="#services">Our services</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>About</h3>
+      <p>We help property owners maximize returns, reduce headaches, and provide tenants with fast, high-quality service. Our team handles listing, leasing, maintenance, and sales so you don’t have to.</p>
+    </section>
+
+    <section id="services" class="container services">
+      <h3>Services</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Property Management</h4>
+          <p>Tenant screening, rent collection, inspections, and full financial reporting.</p>
+        </article>
+        <article class="card">
+          <h4>Maintenance & Repairs</h4>
+          <p>Fast-response repairs and ongoing maintenance with vetted local contractors.</p>
+        </article>
+        <article class="card">
+          <h4>Sales & Marketing</h4>
+          <p>Professional listings, photography, market pricing, and negotiation support.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      <p>Send a quick message and we’ll get back to you within one business day.</p>
+
+      <form id="contactForm" class="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Send message</button>
+          <button type="button" id="mailtoBtn" class="btn ghost">Open email</button>
+        </div>
+
+        <p class="note">If the form can’t send, the site will open your email app as a fallback.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> All in one property solutions</small>
+      <nav class="small-nav">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
